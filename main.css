@@ -78,13 +78,18 @@ nav{
     left: 0;
     z-index: 99;
 }
+.window_scrolled{
+    background: var(--color-bg-2);
+    border-bottom: 0.2rem solid var(--color-bg-3);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+}
 .nav_container{
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav_toggle-bth{
+.nav_toggle-btn{
     display: none;
 }
 .nav_logo{
