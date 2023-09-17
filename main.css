@@ -410,3 +410,31 @@ header {
 .exhibitions_gallery article:hover{
     box-shadow: 0 4rem 4rem rgba(0, 0, 0, 0.5);
 }
+footer{
+    margin-top: 7rem;
+}
+.footer_container{
+    border-top: 0.5rem solid var(--color-bg-4);
+    padding-top: 5rem;
+}
+.footer_head{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.footer_btn{
+    width: 5rem;
+    height: 5rem;
+    border: 0.2rem solid var(--color-primary-variant);
+    border-radius: 50%;
+    font-size: 3rem;
+    color: var(--color-primary-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
+.footer_btn:hover{
+    transform: translateY(-1rem);
+    border-color: var(--color-primary);
+}
