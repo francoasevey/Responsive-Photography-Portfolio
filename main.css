@@ -255,3 +255,24 @@ header {
         transform: rotate(360deg);
     }
 }
+#about{
+    margin-top: 18rem;
+}
+.about_container{
+    display: grid;
+    grid-template-columns: 10rem 26rem auto;
+    gap: 3rem;
+    position: relative;
+}
+.about_title{
+    position: absolute;
+    top: -7rem;
+    z-index: 1;
+}
+.about_btn{
+    color: var(--color-primary-variant);
+    align-self: flex-end;
+}
+.about_btn:hover{
+    transform: translateY(-1rem);
+}
